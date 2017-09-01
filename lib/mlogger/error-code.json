@@ -1,0 +1,546 @@
+{
+  "getLoglang": "en",
+  "getErrLang": "en",
+  "defaultErrId": 100000,
+  "defaultErrMsg": "Default Error Message! ",
+  "WeiWizReserved": {
+    "start": 100000,
+    "end": 199999,
+    "errors": [
+      {
+        "errorId": 200,
+        "errorMsg": {
+          "en": "success!",
+          "zhcn": "成功！"
+        }
+      }
+    ]
+  },
+  "MCloud": {
+    "start": 200000,
+    "end": 299999,
+    "modules": {
+      "global": {
+        "start": 200000,
+        "end": 200999,
+        "errors": [
+          {
+            "errorId": 200000,
+            "errorMsg": {
+              "en": "unknown error.",
+              "zhcn": "未知错误。"
+            }
+          },
+          {
+            "errorId": 200001,
+            "errorMsg": {
+              "en": "Invalid data.",
+              "zhcn": "无效数据。"
+            }
+          },
+          {
+            "errorId": 200002,
+            "errorMsg": {
+              "en": "Invalid data format.",
+              "zhcn": "无效数据格式。"
+            }
+          },
+          {
+            "errorId": 200003,
+            "errorMsg": {
+              "en": "message time out.",
+              "zhcn": "消息超时。"
+            }
+          },
+          {
+            "errorId": 200004,
+            "errorMsg": {
+              "en": "unsuported method.",
+              "zhcn": "不支持该方法。"
+            }
+          },
+          {
+            "errorId": 200005,
+            "errorMsg": {
+              "en": "db connect error.",
+              "zhcn": "数据库连接失败。"
+            }
+          }
+        ]
+      },
+      "M2M": {
+        "start": 201000,
+        "end": 201999,
+        "errors": [
+          {
+            "errorId": 201000,
+            "errorMsg": {
+              "en": "M2M internal error.",
+              "zhcn": "设备管理器内部错误。"
+            }
+          },
+          {
+            "errorId": 201001,
+            "errorMsg": {
+              "en": "connect to M2M failed.",
+              "zhcn": "连接M2M网络失败。"
+            }
+          },
+          {
+            "errorId": 201002,
+            "errorMsg": {
+              "en": "connect error.",
+              "zhcn": "连接错误。"
+            }
+          },
+          {
+            "errorId": 201003,
+            "errorMsg": {
+              "en": "disconnect from M2M.",
+              "zhcn": "连接中断。"
+            }
+          },
+          {
+            "errorId": 201004,
+            "errorMsg": {
+              "en": "device failed to register(HTTP).",
+              "zhcn": "设备注册失败（HTTP）"
+            }
+          }
+        ]
+      },
+      "configurator": {
+        "start": 202000,
+        "end": 202999,
+        "errors": [
+          {
+            "errorId": 202000,
+            "errorMsg": {
+              "en": "configurator internal error.",
+              "zhcn": "设备管理器内部错误。"
+            }
+          },
+          {
+            "errorId": 202001,
+            "errorMsg": {
+              "en": "connect Zookeeper failed[authenticationFailed].",
+              "zhcn": "连接zookeeper失败[认证失败]。"
+            }
+          },
+          {
+            "errorId": 202002,
+            "errorMsg": {
+              "en": "get data from Zookeeper failed.",
+              "zhcn": "从Zookeeper获取数据失败。"
+            }
+          },
+          {
+            "errorId": 202003,
+            "errorMsg": {
+              "en": "set data to Zookeeper failed.",
+              "zhcn": "向Zookeeper设置数据失败。"
+            }
+          },
+          {
+            "errorId": 202004,
+            "errorMsg": {
+              "en": "create node to Zookeeper failed.",
+              "zhcn": "向Zookeeper添加节点失败。"
+            }
+          }
+        ]
+      },
+      "MeDeviceManager": {
+        "start": 203000,
+        "end": 203999,
+        "errors": [
+          {
+            "errorId": 203000,
+            "errorMsg": {
+              "en": "device manager internal error.",
+              "zhcn": "设备管理器内部错误。"
+            }
+          },
+          {
+            "errorId": 203001,
+            "errorMsg": {
+              "en": "device not ready.",
+              "zhcn": "设备尚未准备完毕。"
+            }
+          },
+          {
+            "errorId": 203002,
+            "errorMsg": {
+              "en": "phone number has already registered.",
+              "zhcn": "电话号码已经被注册。"
+            }
+          },
+          {
+            "errorId": 203003,
+            "errorMsg": {
+              "en": "device register failed[socket.io].",
+              "zhcn": "设备注册失败[socket.io]。"
+            }
+          },
+          {
+            "errorId": 203004,
+            "errorMsg": {
+              "en": "device does not exist",
+              "zhcn": "设备不存在。"
+            }
+          },
+          {
+            "errorId": 203005,
+            "errorMsg": {
+              "en": "failed to unregister device.",
+              "zhcn": "设备注销失败。"
+            }
+          },
+          {
+            "errorId": 203006,
+            "errorMsg": {
+              "en": "failed to uodate device.",
+              "zhcn": "设备更新失败。"
+            }
+          }
+        ]
+      },
+      "MeApi": {
+        "start": 204000,
+        "end": 204999,
+        "errors": [
+          {
+            "errorId": 204000,
+            "errorMsg": {
+              "en": "API internal error.",
+              "zhcn": "API内部错误。"
+            }
+          },
+          {
+            "errorId": 204001,
+            "errorMsg": {
+              "en": "Invalid request data.",
+              "zhcn": "无效的请求数据"
+            }
+          },
+          {
+            "errorId": 204002,
+            "errorMsg": {
+              "en": "phone number format is incorrect.",
+              "zhcn": "电话号码格式错误。"
+            }
+          },
+          {
+            "errorId": 204003,
+            "errorMsg": {
+              "en": "password format is incorrect.",
+              "zhcn": "密码格式错误。"
+            }
+          },
+          {
+            "errorId": 204004,
+            "errorMsg": {
+              "en": "request error",
+              "zhcn": "请求处理失败。"
+            }
+          },
+          {
+            "errorId": 204005,
+            "errorMsg": {
+              "en": "session time out.",
+              "zhcn": "会话超时。"
+            }
+          },
+          {
+            "errorId": 204006,
+            "errorMsg": {
+              "en": "connect db error.",
+              "zhcn": "数据库连接错误。"
+            }
+          },
+          {
+            "errorId": 204007,
+            "errorMsg": {
+              "en": "version error.",
+              "zhcn": "版本号错误。"
+            }
+          },
+          {
+            "errorId": 204008,
+            "errorMsg": {
+              "en": "captcha error.",
+              "zhcn": "验证码错误。"
+            }
+          }
+        ]
+      },
+      "MeAuthenticationCenter": {
+        "start": 205000,
+        "end": 205999,
+        "errors": [
+          {
+            "errorId": 205000,
+            "errorMsg": {
+              "en": "AuthenticationCenter internal error.",
+              "zhcn": "认证中心内部错误。"
+            }
+          },
+          {
+            "errorId": 205001,
+            "errorMsg": {
+              "en": "Account name or password is incorrect.",
+              "zhcn": "账号或者密码错误。"
+            }
+          }
+        ]
+      },
+      "MeAnalyzer": {
+        "start": 206000,
+        "end": 206999,
+        "errors": [
+          {
+            "errorId": 206000,
+            "errorMsg": {
+              "en": "Analyzer internal error.",
+              "zhcn": "分析器内部错误。"
+            }
+          },
+          {
+            "errorId": 206001,
+            "errorMsg": {
+              "en": "thrift connect error.",
+              "zhcn": "thrift连接错误。"
+            }
+          }
+        ]
+      },
+      "MeExecutor": {
+        "start": 207000,
+        "end": 207999,
+        "errors": [
+          {
+            "errorId": 207000,
+            "errorMsg": {
+              "en": "Executor internal error.",
+              "zhcn": "执行器内部错误。"
+            }
+          },
+          {
+            "errorId": 207001,
+            "errorMsg": {
+              "en": "lose connection.",
+              "zhcn": "连接丢失。"
+            }
+          },
+          {
+            "errorId": 207002,
+            "errorMsg": {
+              "en": "Unsupported protocol.",
+              "zhcn": "不支持的协议类型。"
+            }
+          }
+        ]
+      },
+      "MeScene": {
+        "start": 208000,
+        "end": 208999,
+        "errors": [
+          {
+            "errorId": 208000,
+            "errorMsg": {
+              "en": "Scene internal error.",
+              "zhcn": "场景管理器内部错误。"
+            }
+          },
+          {
+            "errorId": 208001,
+            "errorMsg": {
+              "en": "no scene found.",
+              "zhcn": "找不到该场景"
+            }
+          }
+        ]
+      },
+      "MeTimer": {
+        "start": 209000,
+        "end": 209999,
+        "errors": [
+          {
+            "errorId": 209000,
+            "errorMsg": {
+              "en": "Scene internal error.",
+              "zhcn": "场景管理器内部错误。"
+            }
+          },
+          {
+            "errorId": 209001,
+            "errorMsg": {
+              "en": "no timer found.",
+              "zhcn": "找不到该定时器。"
+            }
+          },
+          {
+            "errorId": 209002,
+            "errorMsg": {
+              "en": "timer data error.",
+              "zhcn": "定时器数据错误。"
+            }
+          }
+        ]
+      },
+      "MeSMS": {
+        "start": 210000,
+        "end": 210999,
+        "errors": [
+          {
+            "errorId": 210000,
+            "errorMsg": {
+              "en": "SMS internal error.",
+              "zhcn": "短信网关内部错误。"
+            }
+          },
+          {
+            "errorId": 210001,
+            "errorMsg": {
+              "en": "Short message sending was forbidden.",
+              "zhcn": "禁止短信发送。"
+            }
+          },
+          {
+            "errorId": 210002,
+            "errorMsg": {
+              "en": "Short message send failed.",
+              "zhcn": "短信发送失败。"
+            }
+          }
+        ]
+      },
+      "MeNotification": {
+        "start": 211000,
+        "end": 211999,
+        "errors": [
+          {
+            "errorId": 211000,
+            "errorMsg": {
+              "en": "Notification internal error.",
+              "zhcn": "消息推送内部错误。"
+            }
+          },
+          {
+            "errorId": 211001,
+            "errorMsg": {
+              "en": "Notify send failed.",
+              "zhcn": "消息推送失败。"
+            }
+          }
+        ]
+      },
+      "MeEventCenter": {
+        "start": 212000,
+        "end": 212999,
+        "errors": [
+          {
+            "errorId": 212000,
+            "errorMsg": {
+              "en": "EventCenter internal error.",
+              "zhcn": "事件中心内部错误。"
+            }
+          }
+        ]
+      },
+      "MeEventSource": {
+        "start": 213000,
+        "end": 213999,
+        "errors": [
+          {
+            "errorId": 213000,
+            "errorMsg": {
+              "en": "EventSource internal error.",
+              "zhcn": "事件源内部错误。"
+            }
+          }
+        ]
+      },
+      "MeCollector": {
+        "start": 214000,
+        "end": 214999,
+        "errors": [
+          {
+            "errorId": 214000,
+            "errorMsg": {
+              "en": "Collector internal error.",
+              "zhcn": "采集器内部错误。"
+            }
+          },
+          {
+            "errorId": 214001,
+            "errorMsg": {
+              "en": "get data failed from zookeeper.",
+              "zhcn": "从ZooKeeper获取数据失败。"
+            }
+          }
+        ]
+      },
+      "MeMonitor": {
+        "start": 215000,
+        "end": 215999,
+        "errors": [
+          {
+            "errorId": 215000,
+            "errorMsg": {
+              "en": "Monitor internal error.",
+              "zhcn": "监视器内部错误。"
+            }
+          }
+        ]
+      },
+      "MeSession": {
+        "start": 216000,
+        "end": 216999,
+        "errors": [
+          {
+            "errorId": 216000,
+            "errorMsg": {
+              "en": "Session internal error.",
+              "zhcn": "会话管理器内部错误。"
+            }
+          },
+          {
+            "errorId": 216001,
+            "errorMsg": {
+              "en": "no such session",
+              "zhcn": "会话不存在！"
+            }
+          }
+        ]
+      },
+      "MeHL_handler": {
+        "start": 217000,
+        "end": 217999,
+        "errors": [
+          {
+            "errorId": 216700,
+            "errorMsg": {
+              "en": "HL_handler internal error.",
+              "zhcn": "海灵温控器消息处理器内部错误。"
+            }
+          },
+          {
+            "errorId": 217001,
+            "errorMsg": {
+              "en": "Invalid TCP data.",
+              "zhcn": "无效的TCP数据"
+            }
+          },
+          {
+            "errorId": 217002,
+            "errorMsg": {
+              "en": "Can not find the device.",
+              "zhcn": "找不到该设备。"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

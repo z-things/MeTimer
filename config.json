@@ -1,0 +1,17 @@
+{
+  "self": {
+    "type": {
+      "id": "0717080000",
+      "name": "timer",
+      "icon": ""
+    },
+    "module": "./lib/me-timer",
+    "uuid": "8757587e-4512-4d09-9e88-cdbdc2ffb265",
+    "token": "ae9a53468d75538f77926b0902f197441247d1b7",
+    "zkPath": "/system/services/timer/cluster/8757587e-4512-4d09-9e88-cdbdc2ffb265"
+  },
+  "zookeeper": {
+    "host": "115.28.241.149",
+    "port": 2181
+  }
+}

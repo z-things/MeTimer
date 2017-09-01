@@ -1,0 +1,69 @@
+{
+  "name": "MeSMS",
+  "description": "WeiWiz",
+  "version": "0.0.1",
+  "author": {
+    "name": "weicheng.shi",
+    "email": "shiweicheng@weiwiz.com"
+  },
+  "contributors": [
+    {
+      "name": "song.lei",
+      "email": "leisong@weiwiz.com"
+    },
+    {
+      "name": "xianju.chen",
+      "email": "chenxianju@weiwiz.com"
+    },
+    {
+      "name": "zhiyu.xie",
+      "email": "xiezhiyu@weiwiz.com"
+    }
+  ],
+  "license": "MIT",
+  "homepage": "http://www.weiwiz.com",
+  "keywords": [],
+  "dependencies": {
+    "async": "^2.1.4",
+    "child_process": "^1.0.2",
+    "fs": "0.0.1-security",
+    "lodash": "^4.17.4",
+    "meshblu": "^2.2.7",
+    "mongoose": "^4.8.1",
+    "node-schedule": "^1.2.3",
+    "node-uuid": "^1.4.7",
+    "node-zookeeper-client": "^0.2.2",
+    "path": "^0.12.7",
+    "sync-request": "^2.1.0",
+    "trace": "^2.4.1",
+    "tracer": "^0.8.7",
+    "tv4": "^1.2.7",
+    "util": "^0.10.3"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "files": [
+    "LICENSE",
+    "History.md",
+    "Readme.md",
+    "index.js",
+    "lib/"
+  ],
+  "scripts": {},
+  "maintainers": [
+    {
+      "name": "song.lei",
+      "email": "leisong@weiwiz.com"
+    },
+    {
+      "name": "xianju.chen",
+      "email": "chenxianju@weiwiz.com"
+    },
+    {
+      "name": "zhiyu.xie",
+      "email": "xiezhiyu@weiwiz.com"
+    }
+  ]
+}

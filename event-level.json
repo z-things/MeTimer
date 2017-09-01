@@ -1,0 +1,13 @@
+{
+  "level":{
+    "information":0,
+    "notification":1,
+    "warning":2,
+    "error":3,
+    "critical":4,
+    "alert":5,
+    "emergency":6
+  },
+  "saveLevel":0,
+  "pushLevel":2
+}
