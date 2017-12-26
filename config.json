@@ -5,13 +5,16 @@
       "name": "timer",
       "icon": ""
     },
-    "module": "./lib/me-timer",
-    "uuid": "8757587e-4512-4d09-9e88-cdbdc2ffb265",
-    "token": "ae9a53468d75538f77926b0902f197441247d1b7",
-    "zkPath": "/system/services/timer/cluster/8757587e-4512-4d09-9e88-cdbdc2ffb265"
+    "module": "./lib/me-timer"
   },
   "zookeeper": {
-    "host": "115.28.241.149",
+    "host": "tech-artisan.net",
     "port": 2181
+  },
+  "meshblu_server": {
+    "db_url": "mongodb://root:wzh83573100@127.0.0.1:27017/admin",
+    "host": "127.0.0.1",
+    "port": 6565,
+    "message_timeout": 30
   }
 }

@@ -24,6 +24,7 @@
   "homepage": "http://www.weiwiz.com",
   "keywords": [],
   "dependencies": {
+    "log4js": "^2.4.1",
     "async": "^2.1.4",
     "child_process": "^1.0.2",
     "fs": "0.0.1-security",
